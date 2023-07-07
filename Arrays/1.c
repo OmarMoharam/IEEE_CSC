@@ -5,12 +5,12 @@
 
 void printArray(int arr[], int begin, int last); //declaration of the function
 
-// function main begin the excution
+// function main begin the execution
 int main(void) { 
     int N, i;
     int arr[MAX];
     
-    printf("Enter the lenght of the array: ");
+    printf("Enter the length of the array: ");
     scanf("%d",&N);
 
     for (i = 0 ; i < N ; i++) {
